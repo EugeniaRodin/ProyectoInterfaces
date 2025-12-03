@@ -1,3 +1,123 @@
-/*
-Custom Css
-*/
+/* ================================
+   Paleta de colores ViajesChulis
+   ================================ */
+:root {
+  --color-primario: #00917C;
+  --color-secundario: #025955;
+  --color-oscuro: #433520;
+  --color-claro: #FDE8CD;
+
+  --color-hover: #00b39a; /* versión más clara del primario */
+}
+
+/* ================================
+   Backgrounds y botones
+   ================================ */
+.bg-success,
+.btn-success {
+  background-color: var(--color-primario) !important;
+  border-color: var(--color-primario) !important;
+}
+
+.btn-success:hover {
+  background-color: var(--color-hover) !important;
+  border-color: var(--color-hover) !important;
+}
+
+/* ================================
+   Texto
+   ================================ */
+.text-success {
+  color: var(--color-primario) !important;
+}
+
+.text-warning {
+  color: var(--color-claro) !important;
+}
+
+.text-light {
+  color: #fff !important;
+}
+
+.text-muted {
+  color: #d9d9d9 !important;
+}
+
+/* ================================
+   Nav
+   ================================ */
+#templatemo_main_nav a {
+  color: var(--color-oscuro) !important;
+}
+
+#templatemo_main_nav a:hover {
+  color: var(--color-primario) !important;
+}
+
+/* Iconos del nav */
+#templatemo_main_nav .nav-icon {
+  color: var(--color-primario) !important;
+}
+
+/* ================================
+   Hero
+   ================================ */
+#template-mo-zay-hero-carousel {
+  background: var(--color-claro) !important;
+}
+
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: var(--color-primario) !important;
+}
+
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  background-color: var(--color-primario) !important;
+}
+
+/* ================================
+   Elementos hover y enlaces
+   ================================ */
+a:hover {
+  color: var(--color-primario) !important;
+}
+
+/* ================================
+   Footer
+   ================================ */
+#tempaltemo_footer {
+  background-color: var(--color-oscuro) !important;
+}
+
+#tempaltemo_footer a {
+  color: var(--color-claro) !important;
+}
+
+#tempaltemo_footer a:hover {
+  color: var(--color-primario) !important;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: var(--color-claro) !important;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: var(--color-oscuro) !important;
+}
+
+/* ================================
+   Otros componentes
+   ================================ */
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  background-color: var(--color-primario) !important;
+  color: white !important;
+}
+
+.shop-top-menu a:hover {
+  color: var(--color-primario) !important;
+}
+
+.templatemo-accordion a:hover {
+  color: var(--color-primario) !important;
+}
